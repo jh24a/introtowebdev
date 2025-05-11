@@ -1,0 +1,20 @@
+
+body {
+	text-align: center;
+	font-family: Verdana;
+	background-color: antiquewhite;
+}
+
+#usr{
+
+	font-family: monospace;
+	font-weight: bolder;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+#psswrd{
+	margin: 0 auto;
+	padding-bottom: 2%;
+	font-family: monospace;
+}

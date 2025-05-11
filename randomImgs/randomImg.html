@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Random Images</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="HW 8 Random Images">
+   <meta name="author" content="--">
+   <link rel="stylesheet" type="text/css" href="style8.css" >
+   <script>
+		//var img_shown = "GalaxyCluster";
+	    var img_array = new Array( "images/GalaxyCluster.jpg", 
+								   "images/InteractingGalaxies.jpg", 
+								   "images/M51.jpg", 
+								   "images/M104.jpg", 
+								   "images/NGC1300.jpg", 
+								   "images/NGC6217.jpg");
+
+        var caption_array = new Array("A galaxy cluster ",
+                                      "Two interacting galaxies",
+                                      "This is galaxy M51",
+                                      "Galaxy M104 is shown above",
+                                      "Galaxy NGC1300",
+                                      "The galaxy NGC6217")
+
+        function get_index(){
+            return Math.trunc( Math.random() * img_array.length);
+        }
+
+        function set_figure(){
+            indx = get_index();
+            document.getElementById("myimage").src = img_array[indx];
+            document.getElementById("myimage").alt = caption_array[indx];
+            document.getElementById("mycaption").innerHTML = caption_array[indx];
+        }
+   </script>
+</head> 
+
+<body onload="set_figure()">
+	<header>
+		<h1>Galaxies</h1>
+	</header>
+
+    <figure>
+        <img  id="myimage" src="images/placeholder.png" alt="noimage"> 
+        <figcaption  id="mycaption"> script did not run </figcaption>
+        <!-- I would have left src, alt, and figcaption blank but the html validator does 
+            not like that I left it blank so I just added these "placeholders" to comply with what
+            the validator wanted - to not leave it blank. -->
+    </figure>
+
+</body>
+</html>
+

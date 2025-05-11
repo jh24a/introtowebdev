@@ -1,0 +1,17 @@
+body {
+	align-content: center;
+}
+
+form {
+	background-color: cadetblue;
+	width: auto;
+}
+
+div {
+	padding: 3%;
+	text-align: right;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+}

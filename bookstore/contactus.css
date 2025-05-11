@@ -1,0 +1,19 @@
+form {
+	margin: 10%;
+	padding: 5%;
+	text-align: center;
+	background-color: rgb(62, 165, 217);
+	font-family: monospace;
+}
+
+table {
+	margin: 0px auto;
+}
+
+h1 {
+	font-family: Lucida;
+}
+
+textarea {
+	width:  calc(50vw - 20px);
+}

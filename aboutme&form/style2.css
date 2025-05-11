@@ -1,0 +1,53 @@
+body{
+	text-align: center;
+}
+
+#aboutme {
+	background-color: black;
+	color: white;
+	font-style: italic;
+	padding: 5%;
+	font-family: monospace;
+}
+
+#education{
+	background-color: darkslategray;
+	color: white;
+	padding: 5%;
+	font-family: Courier;
+}
+
+#work{
+	background-color: rgb(10, 22, 101);
+	color: white;
+	padding: 5%;
+	font-family: Segoe UI;
+}
+
+#achievements{
+	background-color: rgb(101, 21, 9);
+	color: white;
+	padding: 5%;
+	font-family: monospace;
+}
+
+#interests{
+	background-color: rgb(20, 56, 110);
+	color: white;
+	padding: 5%;
+	font-family: Segoe UI;
+}
+
+#links{
+	background-color: rgb(144, 75, 22);
+	color: white;
+	padding: 5%;
+	font-family: Cochin;
+}
+
+#signature{
+	background-color: rgb(6, 106, 106);
+	color: white;
+	padding: 5%;
+	font-family: cursive;
+}

@@ -1,0 +1,19 @@
+body {
+	text-align: center;
+	font-family: Verdana;
+	background-color: antiquewhite;
+}
+
+#name{
+
+	font-family: monospace;
+	font-weight: bolder;
+	margin: auto;
+	padding: 0.5%;
+}
+
+#item{
+	margin: auto;
+	padding: 0.5%;
+	font-family: monospace;
+}

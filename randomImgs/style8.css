@@ -1,0 +1,26 @@
+#myimage {
+	width: 640px;
+	height: 480px;
+}
+
+#mycaption {
+	
+	font-family: monospace;
+	margin-bottom: 5%;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+
+
+	width: fit-content;
+	border: solid;
+	border-color: ghostwhite;
+	padding: 1%;
+
+}
+
+body {
+	text-align: center;
+	background-color: black;
+	color : ghostwhite;
+}

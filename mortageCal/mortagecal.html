@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Mortage Calculator</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="Mortage Calculator">
+   <meta name="author" content="--">
+   <link rel="stylesheet" type="text/css" href="style6.css" >
+   <script src="script6.js" defer> </script>
+</head> 
+
+<body>
+
+	<form>
+		<div>
+		<table>
+			<tr>
+				<td>Principal Amount:</td>
+				<td><input id="principal-amount" type="text" placeholder="enter a decimal" required></td>
+			</tr>
+
+			<tr>
+				<td>Yearly interest rate:</td>
+				<td><input id="yearly-interest-rate" type="text" placeholder="enter decimal (0 - 1)" required></td>
+			</tr>
+
+			<tr>
+				<td>Loan Term in months:</td>
+				<td><input id="loan-term-months" type="text" placeholder="enter an integer" required></td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="calc_pressed();" type="button">Calculate</button>
+					
+				</td>
+				<td>
+					<button onclick="clear_pressed();" type="reset">Clear</button>
+				</td>
+			</tr>
+		</table>
+		</div>
+		<div>
+		<table>
+			<tr>
+				<td>
+					Monthly payment:
+				</td>
+				<td>
+					<p id="monthly-payments">0.00</p>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Sum of all payments:
+				</td>
+				<td>
+					<p id="sum-of-payments">0.00</p>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Total interest paid:
+				</td>
+				<td>
+					<p id="total-interest">0.00</p>
+				</td>
+			</tr>
+		</table>
+		</div>
+	</form>
+
+</body>
+</html>

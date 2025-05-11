@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Tic Tac Toe</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="Tic Tac Toe Game">
+   <meta name="author" content="--">
+   <link rel="stylesheet" type="text/css" href="style_t2.css" >
+   <script src="script_t2.js" defer> </script> <!-- Defer is to wait for the html to load before running -->
+</head> 
+
+<body>
+	<header>
+		<h1> Tic-Tac-Toe</h1>
+	</header>
+
+	<div id="gameboard">
+		<table>
+			<tr>
+				<td>
+					<button id="1" onclick="handle_click(1)"></button>
+				</td>
+				<td>
+					<button id="2" onclick="handle_click(2)"></button>
+				</td>
+				<td>
+					<button id="3" onclick="handle_click(3)"></button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button id="4" onclick="handle_click(4)"></button>
+				</td>
+				<td>
+					<button id="5" onclick="handle_click(5)"></button>
+				</td>
+				<td>
+					<button id="6" onclick="handle_click(6)"></button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button id="7" onclick="handle_click(7)"></button>
+				</td>
+				<td>
+					<button id="8" onclick="handle_click(8)"></button>
+				</td>
+				<td>
+					<button id="9" onclick="handle_click(9)"></button>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="scoreboard">
+		<table>
+			<tr>
+				<td>X</td>
+				<td>O</td>
+			</tr>
+			<tr>
+				<td id="X_scoreboard">0</td>
+				<td id="O_scoreboard">0</td>
+			</tr>
+		</table>
+	</div>
+	<div id="replaydiv">
+		<button onclick="replay_button()">Replay</button>
+	</div>
+
+
+</body>
+</html>
